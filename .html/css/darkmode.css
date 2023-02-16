@@ -1,0 +1,51 @@
+html {
+  filter: invert(100%) brightness(90%) contrast(80%);
+  -webkit-filter: invert(100%) brightness(90%) contrast(80%);
+}
+
+img, svg, image, video, audio, embed, iframe, object, button, canvas, figure:empty {
+  filter: invert(100%) !important;
+  -webkit-filter: invert(100%) !important;
+}
+
+.img:empty,
+.btn:empty,
+.logo:empty,
+.image:empty,
+.photo:empty,
+.button:empty,
+[role='button'],
+input[type='checkbox'],
+[style*='background:url']:not(html):not(body):not(input),
+[style*='background: url']:not(html):not(body):not(input),
+[style*='background-image']:not(html):not(body):not(input) {
+  filter: invert(100%) !important;
+  -webkit-filter: invert(100%) !important;
+}
+
+:-webkit-full-screen img,
+:-webkit-full-screen svg,
+:-webkit-full-screen video,
+:-webkit-full-screen embed,
+:-webkit-full-screen object,
+:-webkit-full-screen canvas,
+:-webkit-full-screen button  {
+  filter: invert(0%) !important;
+  -webkit-filter: invert(0%) !important;
+}
+
+:-moz-full-screen img,
+:-moz-full-screen svg,
+:-moz-full-screen video,
+:-moz-full-screen embed,
+:-moz-full-screen object,
+:-moz-full-screen canvas,
+:-moz-full-screen button  {
+  filter: invert(0%) !important;
+  -webkit-filter: invert(0%) !important;
+}
+
+.CodeMirror {
+  filter: invert(0%) !important;
+  -webkit-filter: invert(0%) !important;
+}
