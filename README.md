@@ -1,6 +1,14 @@
 # oss-autoindex
 🕸️ | Custom autoindex directory listing for nginx
 
+#### Light Mode
+![Light Mode](./assets/light.png)
+
+#### Dark Mode
+![Dark Mode](./assets/dark.png)
+
+
+
 Copy .html folder to the folder you want to index and add the location.config file to nginx server.
 
 Sample server:

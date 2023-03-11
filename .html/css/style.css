@@ -7,24 +7,36 @@
 }*/
 
 a {
-    color: #4C4C4C;
+    color: #000;
     text-decoration: none!important;
 }
 
 body{
-    color: #4C4C4C;
+    color: #000;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-        background: #F9F9F9 url(../images/content-back.png) repeat;
-        overflow-x: hidden;
+    /* background: #f8f8f8 url(../images/content-back.png) repeat; */
+    background: url(../images/flamingo_yellow.png);
+    overflow-x: hidden;
+    /* filter: blur(2px); */
+    /* -webkit-filter: blur(2px); */
+    /* backdrop-filter: blur(5px); */
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 pre{
     background-color: #FFFFFF;
-    border: 1px solid #ccc;
+    border: 1px solid #3d3d3d;
     width:  725px;
     padding:  9.5px 5px 9.5px 5px;
-        margin-top: 20px;
-        text-align: left;
+    margin-top: 20px;
+    text-align: left;
+
+    /* filter: blur(8px); */
+    /* -webkit-filter: blur(8px); */
+    /* backdrop-filter: blur(5px); */
 }
 
 pre a{
@@ -39,7 +51,7 @@ pre a span{
     margin-top: 20px;
 }
 #footer a{
-    color: #686868;
+    color: #000;
 }
 
 hr{
@@ -53,7 +65,7 @@ h4 {
 }
 
 .header {
-    color: #686868;
+    color: #000;
     margin:3px 5px 6px 5px;
 }
 
@@ -81,9 +93,15 @@ h4 {
     margin-top: 7px;
 }
 
+#custom-search-form input, #custom-search-form button {
+    background: transparent;
+    color: #000;
+    border: 1px solid #2e2e2e;
+}
+
 #searchIcon{
     padding: 0px 0px 0px 5px;
-    color: #686868;
+    color: #000;
 }
 
 .form-group-sm .form-control + .form-control-feedback, .input-group-sm + .form-control-feedback, .input-sm + .form-control-feedback {
@@ -117,7 +135,7 @@ input.form-control,input.form-control:focus {
     margin: auto;
     font-size: 14px;
     cursor: pointer;
-    color: #AAA;
+    color: #000;
 }
 
 .svg-icon {
@@ -265,6 +283,7 @@ input.form-control,input.form-control:focus {
 }
 
 .modal-open .modal {
+    transition: all ease .2s;
    z-index: 1050;
 }
 
@@ -287,8 +306,10 @@ input.form-control,input.form-control:focus {
     border: 1px solid #ccccccad;
     display: inline-block;
     vertical-align: middle;
-    color: #555;
-    background-color: #fff;
+    color: #000;
+    border-color: #2e2e2e;
+    /* background-color: #fff; */
     border-radius: 4px;
     line-height: 0px;
+
 }
