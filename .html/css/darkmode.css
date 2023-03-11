@@ -1,6 +1,6 @@
 html {
-  filter: invert(100%) brightness(90%) contrast(80%);
-  -webkit-filter: invert(100%) brightness(90%) contrast(80%);
+  filter: invert(100%) brightness(90%) contrast(70%);
+  -webkit-filter: invert(100%) brightness(90%) contrast(70%);
 }
 
 img, svg, image, video, audio, embed, iframe, object, button, canvas, figure:empty {

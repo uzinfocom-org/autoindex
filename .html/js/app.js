@@ -186,7 +186,7 @@ $(document).ready(function(){
 
     $("h1").prepend('<form id="custom-search-form" class="form-inline pull-right"><div class="btn-group"><button id="darkmode" type="button"><span class="glyphicon glyphicon-eye-open""></span></button> <input id="searchBox" placeholder="Sahifadan izlash" type="search" class="form-control"> <span id="searchclear" class="glyphicon glyphicon-remove-circle"></span></div></form>');
 
-    $("pre").prepend('<div class="header">Nomi                                                 Vaqt                          Oʻlcham</div>');
+    $("pre").prepend('<div class="header">Nomi                                                So\'ngi o\'zgartirish             Oʻlcham</div>');
 
     var list = new Array();
     
